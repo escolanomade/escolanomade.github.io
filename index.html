@@ -18,6 +18,10 @@
 <!-- JavaScript part -->
 <script type="text/javascript">
     
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
+    
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -31,7 +35,7 @@ function getRandomInt(min, max) {
         seconds = seconds - 1;
         if (seconds < 0) {
             // Chnage your redirection link here
-            window.location = "https://google.com";
+            window.location = "https://www.escolanomade.org/formulario-de-presenca-curso-de-introducao-a-esquizoanalise-04-07-2021/";
         } else {
             // Update remaining seconds
             document.getElementById("countdown").innerHTML = seconds;
