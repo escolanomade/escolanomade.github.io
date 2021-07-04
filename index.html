@@ -5,7 +5,9 @@
 <h3>
 
 <font color="#25282e" face="Lora, sans-serif" style="font-size: 30px;">
-	Aguarde. A lista de presença será aberta em <span id="countdown">600</span> segundos.
+	Aguarde. <BR />A lista de presença será aberta em <span id="countdown">600</span> segundos.
+    <BR />
+    Você pode deixar essa página aberta e voltar depois. 
 </font>
 
 </h3>
@@ -35,7 +37,7 @@ function getRandomInt(min, max) {
         seconds = seconds - 1;
         if (seconds < 0) {
             // Por favor, nao compartilhe o link abaixo antes do fim da aula. O objetivo desta pagina de espera é liberar o acesso ao formulario de
-            // presenca dentro de um período aleatorio, e assim evitar sobrecarga do servidor
+            // presenca dentro de um período aleatorio, e assim evitar sobrecarga do servidor. 
             window.location = "https://www.escolanomade.org/formulario-de-presenca-curso-de-introducao-a-esquizoanalise-04-07-2021/";
         } else {
             // Update remaining seconds
