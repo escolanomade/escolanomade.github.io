@@ -33,7 +33,7 @@ p {
 <!-- Modify according to your requirements -->
 <div class="content" >
   <p>
-	<strong>Aguarde.</strong><BR /><BR />Você será redirecionado para a lista de presença em <span id="countdown">120</span> segundos.
+	<strong>Aguarde.</strong><BR /><BR />Você será redirecionado para a lista de presença em <span id="countdown">60</span> segundos.
     <BR /><BR />
     Você pode deixar a página aberta e voltar depois. 
 <BR /><BR />
@@ -61,7 +61,7 @@ function getRandomInt(min, max) {
 }
 
     // Total seconds to wait
-    var seconds = getRandomInt(1,120);
+    var seconds = getRandomInt(1,60);
     
     function countdown() {
         seconds = seconds - 1;
