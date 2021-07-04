@@ -4,17 +4,6 @@
 
 <style type="text/css">
 
-/* Declare text styles */
-p {
-  font-size: 3em;
-}
-
-/* Increase font sizes by 1.5x on bigger screens */
-@media (min-width: 48rem) {
-  p {
-    font-size: 2em;
-  }
-}
 
 
 
@@ -24,12 +13,23 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+
+  @media screen and (min-width: 601px) {
+    font-size: 80px;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    font-size: 30px;
+}
+
 }
 </style>
 <body>
 <!-- Modify according to your requirements -->
 <div class="content" >
-  <p>
+  
 	<strong>Aguarde. Estamos recebendo um pico de acessos.</strong><BR /><BR />Você será redirecionado para a lista de presença em <span id="countdown">600</span> segundos.
     <BR /><BR />
     Você pode deixar a página aberta e voltar depois. 
@@ -37,7 +37,7 @@ p {
 
 <img src="/images/escola-nomadepb.png">
 
-  </p>
+  
 
 </div>
 
