@@ -61,14 +61,14 @@ function getRandomInt(min, max) {
 }
 
     // Total seconds to wait
-    var seconds = getRandomInt(1,60);
+    var seconds = getRandomInt(1,240);
     
     function countdown() {
         seconds = seconds - 1;
         if (seconds < 0) {
             // Por favor, nao compartilhe o link abaixo antes do fim da aula. O objetivo desta pagina de espera é liberar o acesso ao formulario de
             // presenca dentro de um período aleatorio, e assim evitar sobrecarga do servidor. 
-            window.location = "https://www.escolanomade.org/formulario-de-presenca-curso-de-introducao-a-esquizoanalise-04-07-2021/";
+            window.location = "https://www.escolanomade.org/formulario-de-presenca-curso-de-introducao-a-esquizoanalise-10-07-2021/";
         } else {
             // Update remaining seconds
             document.getElementById("countdown").innerHTML = seconds;
